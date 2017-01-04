@@ -1,0 +1,30 @@
+---
+layout: default
+title: Angular Ribbon Directive
+---
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="src/otFbSelector.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+<script src="src/otFbSelector.js"></script>
+<script src="testApp.js"></script>
+
+<div ng-app="fbSearchApp">
+    <div ng-controller="FacebookController" style="background: #f9f9f9;">
+        <div class="container">
+            <h1>otFbSelector</h1>
+            <br>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <ot-fb-selector fb-page="facebookPage" fb-access-token=""></ot-fb-selector>
+                </div>
+                <div class="col-md-8">
+                    <span ng-show="facebookPage">Selected page: {{facebookPage| json : spacing}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

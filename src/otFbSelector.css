@@ -1,0 +1,70 @@
+.loadersmall {
+    border: 5px solid #f3f3f3;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    border-top: 5px solid #555;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.ot-facebook-pages-list {
+    max-height: 25em;
+    overflow-y: scroll;
+    margin-bottom: 2em;
+}
+
+.ot-fb-border {
+    border: 1px solid #ccc;  
+}
+.ot-facebook-pages-list .item {
+    border: none;
+    margin-bottom: 0;
+}
+
+.ot-facebook-pages-list .row {
+    margin-left: initial;
+    margin-right: initial;
+}
+
+.ot-facebook-pages-list .item:hover {
+    cursor: pointer;
+    background: white;
+}
+
+.item {
+    padding: .5rem 1rem;
+    border: 1px solid #d4d4d4;
+    border-radius: .25rem;
+    margin-bottom: .5em;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.item__image {
+    text-align: center;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    height: 100px;
+    text-align: center;
+}
+
+.item__thumb {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.item__thumb img {
+    width: 50px;
+}
