@@ -1,7 +1,7 @@
 # Angular Facebook Page Selector
 An Angular.js directive for searching and selecting a Facebook page.
 
-![Demo](https://omriallouche.github.io/facebook-page-selector/)
+[Demo](https://omriallouche.github.io/facebook-page-selector/)
 
 ## Getting started:
   - Include `otFbSelector.css`:
