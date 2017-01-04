@@ -1,5 +1,5 @@
-# otFbSelector
-An angularjs directive for searching and select Facebook pages.
+# Angular Facebook Page Selector
+An Angular.js directive for searching and selecting a Facebook page.
 
 ## Getting started:
   - Include `otFbSelector.css`:
@@ -18,8 +18,8 @@ angular.module('yourApp', ['otFb']);
 ```html
 <ot-fb-selector fb-page="facebookPage" fb-access-token="%FB_ACCESS_TOKEN%"></ot-fb-selector>
 ```
-Selected page params will be saved into `facebookPage` variable.
+In the example above, the selected page will be saved into `facebookPage` variable.
 
 ## Attributes:
  - `fb-access-token` - Facebook access token (*required*)
- - `fb-page` - Scope variable for saving selected FB page
+ - `fb-page` - Scope variable to hold the selected FB page
