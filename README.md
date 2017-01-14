@@ -25,3 +25,6 @@ In the example above, the selected page will be saved into `facebookPage` variab
 ## Attributes:
  - `fb-access-token` - Facebook access token (*required*)
  - `fb-page` - Scope variable to hold the selected FB page
+
+## Contributing
+Pull requests are welcome!
